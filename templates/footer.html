@@ -1,0 +1,62 @@
+{% load static %}
+<section id="footer" class="footer-area">
+        <div class="container">
+            <div class="footer-widget pt-75 pb-120">
+                <div class="row">
+                    <div class="col-lg-3 col-md-5 col-sm-7">
+                        <div class="footer-logo mt-40">
+                            <a href="#">
+                                <img src="{% static 'images/logo.png' %}" alt="Logo">
+                            </a>
+                            <p class="mt-10">Redes Sociais</p>
+                            <ul class="footer-social mt-25">
+                                <li><a href="https://www.facebook.com/melodystoreoficial/" target="_blank"><i class="lni-facebook-filled" ></i></a></li>
+                                <li><a href="https://www.instagram.com/melodystoreoficial/" target="_blank"><i class="lni-instagram"></i></a></li>
+                            </ul>
+                        </div> <!-- footer logo -->
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-5">
+                       <div class="footer-link mt-50">
+                            <h5 class="f-title">Institucional</h5>
+                            <ul>
+                                <li><a href="{% url 'sobre_nos' %}" target="_blank">Sobre Nós</a></li>
+                                <li><a href="{% url 'entrega_devolucao' %}" target="_blank">Entrega e Devolução</a></li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-5">
+                        <div class="footer-link mt-50">
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-4 col-md-5 col-sm-7">
+                        <div class="footer-info mt-50">
+                            <h5 class="f-title">Contato</h5>
+                            <ul>
+                                <li>
+                                    <div class="single-footer-info mt-20">
+                                        <span>Wpp :  </span>
+                                        <div class="footer-info-content">
+                                            <p>(24) 98866-7630 </p>
+                                        </div>
+                                    </div> <!-- single footer info -->
+                                </li>
+                                <li>
+                                    <div class="single-footer-info mt-20">
+                                        <span>E-mail :</span>
+                                        <div class="footer-info-content">
+                                            <p>mmelody.store@gmail.com</p>
+                                        </div>
+                                    </div> <!-- single footer info -->
+                                </li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                    <div> <!-- whatsapp -->
+                        <a href="https://api.whatsapp.com/send?phone=5524988667630" target="_blank">
+                            <img class="whatsapp" src="https://images.tcdn.com.br/static_inst/integracao/imagens/whatsapp.png" />
+                        </a>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- footer widget -->
+        </div> <!-- container -->
+    </section>
